@@ -7,9 +7,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-
     return MaterialApp(
-      title: 'LearnMe',
+      theme: ThemeData(
+        primaryColor: Colors.green
+      ),
       home: Scaffold(
         body: Center(
           child: RandomWords(),
